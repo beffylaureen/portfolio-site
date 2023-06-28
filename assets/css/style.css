@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: floralwhite;
+}
+
+.header {
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(1, 1, 93);
+  color:white;
+}
+
+.header h1 {
+  display: inline-flex;
+  font-size: 48px;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: white;
+  text-decoration-style: none;
+}
+.banner{
+  height:25vh;
+  width:100%;
+}
+
+.bio {
+  margin-left: 20px;
+  padding:20px;
+  clear:both;
+  float:left;
+  width: 20%;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24;
+
+}
+
+.vitals {
+  margin-right: 20px;
+  padding: 20px;
+  clear:both;
+  display: flex;
+  width:100vw;
+
+}
+.vitals p{
+  margin-left: 100px;
+}
+.portfolio {
+  display:flex;
+  flex-wrap: wrap;
+  width:65%;
+  margin-left: 100px;
+  margin-right:20px;
+  
+}
+
+.flex-item {
+  display: flex;
+  flex-basis: 50%;
+  height: 150px;
+  border: 5px solid gray;
+}
+.flex-item:first-child {
+  height:300px;
+  flex-basis: 100%;
+}
+#portfolio-item-one {
+  background-image: url("../IMG_3230.JPG");
+  background-size: auto;
+  background-position: bottom;
+}
