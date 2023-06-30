@@ -6,6 +6,8 @@
 
 body {
   background-color: floralwhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24;
 }
 
 .header {
@@ -31,6 +33,7 @@ body {
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
+  font-size: 18px;
 }
 
 a {
@@ -42,8 +45,24 @@ a {
   width:100%;
 }
 
+.portfolio {
+  font-weight: bold;
+}
+
 .bio {
-  margin-left: 20px;
+  margin-left: 0px;
+  padding:20px;
+  clear:both;
+  float:left;
+  width: 20%;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28;
+
+}
+
+.vitals {
+  margin-left: 0px;
   padding:20px;
   clear:both;
   float:left;
@@ -51,25 +70,19 @@ a {
   height: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24;
-
-}
-
-.vitals {
-  margin-right: 20px;
-  padding: 20px;
-  clear:both;
-  display: flex;
-  width:100vw;
-
 }
 .vitals p{
-  margin-left: 100px;
+  
+  margin-right: 190px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:24;
+  padding:50;
 }
 .portfolio {
   display:flex;
   flex-wrap: wrap;
   width:65%;
-  margin-left: 100px;
+  margin-left: 170px;
   margin-right:20px;
   
 }
@@ -78,14 +91,56 @@ a {
   display: flex;
   flex-basis: 50%;
   height: 150px;
-  border: 5px solid gray;
+  border: 2px solid black;
 }
 .flex-item:first-child {
   height:300px;
   flex-basis: 100%;
 }
 #portfolio-item-one {
-  background-image: url("../IMG_3230.JPG");
-  background-size: auto;
+  background-image: url("../social-media-marketing\ copy.jpg");
+  background-size:cover;
   background-position: bottom;
+}
+#portfolio-item-two {
+  background-image: url("../IMG_2962.jpg");
+  background-size:cover;
+  background-position: bottom;
+}
+#portfolio-item-three {
+  background-image: url("../IMG_3057.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+#portfolio-item-four {
+  background-image: url("../IMG_3138.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#portfolio-item-five {
+  background-image: url("../IMG_3151.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font: size 24px;
+
+
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  main, section.cards {
+    flex-direction: column;
+  }
+  main {
+    padding-top: 2rem;
+  }
 }
