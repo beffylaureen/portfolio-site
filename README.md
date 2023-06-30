@@ -16,7 +16,7 @@
 
 ## https://brooklyntweed.com/collections/patterns/products/pyry
 
-## <img src="/./homework/portfolio-site/assets/Screenshot%202023-06-30%20at%2012.05.53%20AM.png> >
+## <img src="./assets/Screenshot%202023-06-30%20at%2012.05.53%20AM.png" alt = "Finished Website" />
 
 ## https://beffylaureen.github.io/portfolio-site/
 
